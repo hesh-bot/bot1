@@ -3,8 +3,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 import asyncio
 
-TOKEN = os.getenv("BOT_TOKEN")  # токен бота из Render → Environment
-ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")  # id админа или группы
+TOKEN = os.getenv("8488177555:AAEGwmER1kJ5zEDrI-8t9njxrX33rGkNhgQ")  # токен бота из Render → Environment
+ADMIN_CHAT_ID = os.getenv("1002933914421")  # id админа или группы
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
